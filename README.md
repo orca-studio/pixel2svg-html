@@ -2,13 +2,13 @@
 
 **Raster logo → clean, smooth, minimal-complexity SVG → standalone JS-rendered HTML.**
 
-[Skill instructions](SKILL.md) · [Companion skill: Pixel2Motion](https://github.com/nolanlai/pixel2motion)
+[Skill instructions](https://github.com/nolangz/pixel2svg-html/blob/main/SKILL.md) · [Companion skill: Pixel2Motion](https://github.com/nolangz/pixel2motion)
 
 Pixel2SVG-HTML is a Codex skill for converting raster logos (PNG/JPG/WebP/screenshots) into clean, smooth, editable SVG and standalone JavaScript-rendered HTML.
 
 The skill is built for logo reconstruction work where vector craft matters more than blind pixel tracing. It favors the lowest-complexity geometry that passes visual QA, records overlay evidence for every fitting iteration, and treats edge smoothness as a hard quality gate. IoU is measured and optimized as high as practical, but it is never used as a fixed global pass/fail threshold.
 
-This repository covers static logo vectorization. If the request includes logo animation, motion studies, replay controls, timeline tuning, or an animated showcase HTML, use the companion [Pixel2Motion](https://github.com/nolanlai/pixel2motion) skill instead.
+This repository covers static logo vectorization. If the request includes logo animation, motion studies, replay controls, timeline tuning, or an animated showcase HTML, use the companion [Pixel2Motion](https://github.com/nolangz/pixel2motion) skill instead.
 
 ## Fitting Process
 
